@@ -160,7 +160,7 @@ h3 {
   padding: 30px 30px 30px 30px;
 }
 .text{
-  text-align: justify;
+  text-align: left;
   display: block;
   width:50%;
 }
