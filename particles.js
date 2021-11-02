@@ -40,7 +40,7 @@ var pJS = function(tag_id, params){
         },
         image: {
           src: '',
-          width: 100,
+          width: 10,
           height: 100
         }
       },
@@ -1506,7 +1506,7 @@ window.particlesJS = function(tag_id, params){
   canvas_el.className = pJS_canvas_class;
 
   /* set size canvas */
-  canvas_el.style.width = "100%";
+  canvas_el.style.width = "110%";
   canvas_el.style.height = "100%";
 
   /* append canvas */
