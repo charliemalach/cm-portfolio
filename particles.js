@@ -40,7 +40,7 @@ var pJS = function(tag_id, params){
         },
         image: {
           src: '',
-          width: 100,
+          width: 110,
           height: 100
         }
       },
