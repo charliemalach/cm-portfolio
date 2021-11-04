@@ -73,7 +73,7 @@ section .title::after{
     font-size: 20px;
     color: teal;
     padding: 0 5px;
-    background: #111;
+    background: rgb(179, 175, 175);
     transform: translateX(-50%);
 }
 
