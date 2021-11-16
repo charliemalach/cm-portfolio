@@ -687,3 +687,66 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+
+
+
+
+/* home section styling */
+.classes{
+    display: flex;
+    background: url("images/classes.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.classes-content{
+    position:absolute;
+    top: 500px;
+}
+.test1{
+    position: relative;
+}
+
+.classes .max-width{
+  width: 100%;
+  display: flex;
+}
+.classes .max-width .row{
+  margin-right: 0;
+}
+.classes .classes-content .text-1{
+    font-size: 27px;
+}
+.classes .classes-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.classes .classes-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.classes .classes-content .text-3 span{
+    color: teal;
+    font-weight: 500;
+}
+.classes .classes-content a{
+    display: inline-block;
+    background: teal;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid teal;
+    transition: all 0.3s ease;
+}
+.classes .classes-content a:hover{
+    color: teal;
+    background: none;
+}
