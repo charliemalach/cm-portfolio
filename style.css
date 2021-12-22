@@ -72,7 +72,6 @@ section .title::after{
     font-size: 20px;
     color: teal;
     padding: 0 5px;
-    background: #fff;
     transform: translateX(-50%);
 }
 
@@ -285,7 +284,6 @@ section .title2{
 
 .services .title::after,
 .title::after{
-    background: #111;
     content: "What I Offer";
 }
 .services .serv-content .card{
@@ -322,7 +320,7 @@ section .title2{
 
 /* skills section styling */
 .skills .title::after{
-    content: "Skill Set";
+    content: "Personal Skill Set";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
