@@ -52,8 +52,8 @@ section .title{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
     font-family: 'Ubuntu', sans-serif;
 }
 section .title::before{
@@ -80,22 +80,15 @@ section .title::after{
 section .title2{
     position: relative;
     text-align: center;
+    align-items: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-section .title2::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 180px;
-    height: 3px;
-    background: #111;
-    transform: translateX(-50%);
-}
+
 
 /* navbar styling */
 .navbar{
@@ -713,9 +706,8 @@ footer span a:hover{
 .classes{
     display: flex;
     background: url("images/classes.jpg") no-repeat center;
-    height: 100vh;
     color: #fff;
-    min-height: 500px;
+    min-height: 30px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
@@ -723,9 +715,13 @@ footer span a:hover{
 .classes-content{
     position:absolute;
     top: 500px;
+    align-items: center;
 }
 .test1{
-    position: relative;
+    position:absolute;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .classes .max-width{
@@ -767,3 +763,58 @@ footer span a:hover{
     color: teal;
     background: none;
 }
+.classes2 {
+display: flex;
+background: url("images/classes.jpg") no-repeat center;
+color: #fff;
+min-height: 675px;
+background-size: cover;
+background-attachment: fixed;
+font-family: 'Ubuntu', sans-serif;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+align-content: center;
+}
+.text1{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
