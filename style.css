@@ -320,7 +320,7 @@ section .title2{
 
 /* skills section styling */
 .skills .title::after{
-    content: "Personal Skill Set";
+    content: "My Personal Skills";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
