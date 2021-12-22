@@ -63,7 +63,6 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -283,10 +282,7 @@ section .title2{
     color:#fff;
     background: #111;
 }
-.services .title::before,
-.title::before{
-    background: #fff;
-}
+
 .services .title::after,
 .title::after{
     background: #111;
@@ -325,12 +321,8 @@ section .title2{
 }
 
 /* skills section styling */
-.skills .title::before,
-.title::before{
-    background: #111;
-}
 .skills .title::after{
-    content: "My Personal Skill Set";
+    content: "Skill Set";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
