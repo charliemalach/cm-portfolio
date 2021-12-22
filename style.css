@@ -325,7 +325,10 @@ section .title2{
 }
 
 /* skills section styling */
-
+.skills .title::before,
+.title::before{
+    background: #111;
+}
 .skills .title::after{
     content: "My Personal Skill Set";
 }
