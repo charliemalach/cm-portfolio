@@ -64,6 +64,7 @@ section .title::before{
     width: 180px;
     height: 3px;
     padding: 10px 5px;
+    margin: 0px 0px -5px;
     transform: translateX(-50%);
 }
 section .title::after{
