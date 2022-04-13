@@ -259,9 +259,6 @@ section .title2{
 .about .about-content .right .text span{
     color: teal;
 }
-.about .about-content .right p{
-    text-align: justify;
-}
 .about .about-content .right a{
     display: inline-block;
     background: teal;
@@ -332,9 +329,6 @@ section .title2{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-}
-.skills .skills-content .left p{
-    text-align: justify;
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -466,9 +460,6 @@ section .title2{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-}
-.contact .contact-content .left p{
-    text-align: justify;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
