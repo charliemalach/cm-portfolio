@@ -457,7 +457,6 @@ section .title2{
 
 /* contact section styling */
 .contact .title::after{
-    background: #111;
     content: "Lets get in touch!";
 }
 .contact .contact-content .column{
