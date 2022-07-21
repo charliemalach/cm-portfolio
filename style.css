@@ -319,6 +319,24 @@ section .title2{
 }
 
 /* skills section styling */
+
+.skills .btn-primary {
+    display: inline-block;
+    background: teal;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid teal;
+    transition: all 0.3s ease;
+}
+
+.skills .btn-primary:hover{
+    color: teal;
+    background: none;
+}
 .skills .title::after{
     content: "My Personal Skills";
 }
