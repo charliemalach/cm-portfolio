@@ -284,7 +284,7 @@ section .title2{
 
 .services .title::after,
 .title::after{
-    content: "What I Offer";
+    content: "Services I Offer";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -351,7 +351,7 @@ section .title2{
     background: none;
 }
 .skills .title::after{
-    content: "My Personal Skills";
+    content: "Skills I Offer";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
