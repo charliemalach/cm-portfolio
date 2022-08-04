@@ -483,7 +483,7 @@ section .title2{
 
 /* contact section styling */
 .contact .title::after{
-    content: "Lets get in touch!";
+    content: "Get in Touch!";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
