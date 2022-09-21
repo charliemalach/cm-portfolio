@@ -40,7 +40,7 @@ section{
 }
 .about .about-content,
 .services .serv-content,
-.skills .skills-content,
+.skills .skills-content, .projects, .projects-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -433,7 +433,7 @@ section .title2{
 
 .projects .projects-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -441,7 +441,7 @@ section .title2{
     transition: all 0.3s ease;
 }
 .projects .projects-content .card:hover{
-    background: teal;
+    background: grey;
 }
 .projects .projects-content .card .box{
     transition: all 0.3s ease;
