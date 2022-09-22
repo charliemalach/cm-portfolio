@@ -433,8 +433,7 @@ section .title2{
 
 .projects .projects-content .card{
     width: calc(33% - 20px);
-    background: #111;
-    color: #fff;
+    color: #111;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
