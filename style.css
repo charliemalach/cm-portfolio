@@ -734,6 +734,11 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    
+    .projects .projects-content .right{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
@@ -757,6 +762,10 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+    .projects .projects-content .card {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 500px) {
