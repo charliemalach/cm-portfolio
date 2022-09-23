@@ -433,7 +433,7 @@ section .title2{
 
 .projects .projects-content .card{
     width: calc(33% - 20px);
-    color: #111;
+    color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -448,6 +448,7 @@ section .title2{
 }
 .projects .projects-content .card:hover .box{
     transform: scale(1.05);
+
 }
 .projects .projects-content .card i{
     font-size: 50px;
