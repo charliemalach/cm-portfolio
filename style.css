@@ -441,10 +441,12 @@ section .title2{
     transition: all 0.3s ease;
 }
 .projects .projects-content .card:hover{
+    transform: scale(1.05);
     background: grey;
 }
 .projects .projects-content .card .box{
     transition: all 0.3s ease;
+    
 }
 .projects .projects-content .card:hover .box{
     transform: scale(1.05);
@@ -493,6 +495,15 @@ section .title2{
 .projects .btn-primary:hover{
     color: teal;
     background: none;
+}
+
+.hide {
+    display: none;
+}
+
+.projects-box:hover + .hide {
+    display: inline-block;
+
 }
 
 
