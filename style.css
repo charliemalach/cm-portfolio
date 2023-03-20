@@ -400,19 +400,19 @@ section .title2{
     top: 0;
     background: teal;
 }
-.skills-content .right .adobe::before{
+.skills-content .right .java::before{
     width: 90%;
 }
-.skills-content .right .java::before{
-    width: 80%;
+.skills-content .right .python::before{
+    width: 90%;
 }
 .skills-content .right .js::before{
-    width: 60%;
+    width: 85%;
 }
 .skills-content .right .html::before{
     width: 80%;
 }
-.skills-content .right .css::before{
+.skills-content .right .sql::before{
     width: 70%;
 }
 
