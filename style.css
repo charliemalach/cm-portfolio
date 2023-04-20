@@ -350,7 +350,7 @@ section .title2{
     background: none;
 }
 .skills .title::after{
-    content: "Skills I Offer";
+    content: "Skills and Certifications";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -417,7 +417,7 @@ section .title2{
 }
 
 .projects .title:after, .title:after{
-    content: "Projects I've Done"
+    content: "Check my Work"
 }
 
 .projects {
