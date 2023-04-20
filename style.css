@@ -331,6 +331,8 @@ section .title2{
     border-radius: 6px;
     border: 2px solid teal;
     transition: all 0.3s ease;
+    width: 250px;
+    height: 50px;
 }
 .skills .btn-primary .a{
     display: inline-block;
