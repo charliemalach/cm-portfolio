@@ -11,9 +11,14 @@ $(document).ready(function() {
   
       // Check if the user has scrolled past the element
       if (scrollTop > elementOffset - distance) {
-        // Animate image to move from left to center of screen
+        // Calculate the left position for centering the image
+        var screenWidth = $(window).width();
+        var imageWidth = $('#image-container').width();
+        var leftPosition = (screenWidth - imageWidth) / 2;
+  
+        // Animate image to move to the center of the screen
         $('#image-container').animate({
-          left: '15%' // center of screen
+          left: leftPosition + 'px' // center of screen
         }, 500); // adjust speed as needed (in milliseconds)
       }
     });
