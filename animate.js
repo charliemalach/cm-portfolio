@@ -2,25 +2,27 @@ $(document).ready(function() {
     $(window).scroll(function() {
       // Get the position of the top of the window
       var scrollTop = $(window).scrollTop();
-  
+
       // Get the position of the element you want to animate
       var elementOffset = $('#image-container').offset().top;
-  
+
       // Set the distance you want the user to scroll before the animation triggers
       var distance = 1000;
-  
+
       // Check if the user has scrolled past the element
       if (scrollTop > elementOffset - distance) {
-        // Calculate the left position for centering the image
+        // Animate image to move from left to center of screen
         var screenWidth = $(window).width();
-        var imageWidth = $('#image-container').width();
-        var leftPosition = (screenWidth - imageWidth) / 2;
-  
-        // Animate image to move to the center of the screen
-        $('#image-container').animate({
-          left: leftPosition + 'px' // center of screen
-        }, 500); // adjust speed as needed (in milliseconds)
+        if (screenWidth <= 768) { // center image only on mobile
+          $('#image-container').animate({
+            left: '50%', // center of screen
+            marginLeft: -$('#image-container').width() / 2 // center image horizontally
+          }, 500); // adjust speed as needed (in milliseconds)
+        } else {
+          $('#image-container').animate({
+            left: '15%' // center of screen
+          }, 500); // adjust speed as needed (in milliseconds)
+        }
       }
     });
   });
-  
