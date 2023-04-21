@@ -13,7 +13,7 @@ $(document).ready(function() {
       if (scrollTop > elementOffset - distance) {
         // Animate image to move from left to center of screen
         $('#image-container').animate({
-          left: '20%' // center of screen
+          left: '15%' // center of screen
         }, 500); // adjust speed as needed (in milliseconds)
       }
     });
