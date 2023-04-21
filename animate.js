@@ -1,28 +1,29 @@
 $(document).ready(function() {
-    $(window).scroll(function() {
-      // Get the position of the top of the window
-      var scrollTop = $(window).scrollTop();
-
-      // Get the position of the element you want to animate
-      var elementOffset = $('#image-container').offset().top;
-
-      // Set the distance you want the user to scroll before the animation triggers
-      var distance = 1000;
-
-      // Check if the user has scrolled past the element
-      if (scrollTop > elementOffset - distance) {
-        // Animate image to move from left to center of screen
-        var screenWidth = $(window).width();
-        if (screenWidth <= 768) { // center image only on mobile
+    // Check if device is mobile
+    if (!/Mobi/.test(navigator.userAgent)) {
+      // Execute the existing script for non-mobile devices
+      $(window).scroll(function() {
+        var scrollTop = $(window).scrollTop();
+        var elementOffset = $('#image-container').offset().top;
+        var distance = 1000;
+    
+        if (scrollTop > elementOffset - distance) {
           $('#image-container').animate({
-            left: '50%', // center of screen
-            marginLeft: -$('#image-container').width() / 2 // center image horizontally
-          }, 500); // adjust speed as needed (in milliseconds)
-        } else {
-          $('#image-container').animate({
-            left: '15%' // center of screen
-          }, 500); // adjust speed as needed (in milliseconds)
+            left: '15%'
+          }, 500);
         }
-      }
-    });
+      });
+    } else {
+      // Center the image for mobile devices
+      $('#image-container').css({
+        'position': 'relative',
+        'top': 'auto',
+        'left': 'auto',
+        'margin': '0 auto 20px'
+      });
+  
+      $('img').hover(function() {
+        $(this).css('transform', 'none');
+      });
+    }
   });
