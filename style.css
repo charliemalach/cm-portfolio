@@ -182,10 +182,22 @@ section .title2{
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
+    /* background: black; */
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 .home-content{
     position:absolute;
@@ -352,7 +364,7 @@ section .title2{
     background: none;
 }
 .skills .title::after{
-    content: "Skills and Certifications";
+    content: "Skills and Such";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);

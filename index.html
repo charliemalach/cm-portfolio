@@ -22,6 +22,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     
     
 </head>
@@ -47,6 +49,7 @@
 
     <!-- home section start -->
     <section class="home" id="home">
+        
         <div id="main-text">
             <div class="max-width">
                 <div class="home-content">
@@ -54,6 +57,7 @@
                     <div class="text-2">Charlie Malachinski</div>
                     <div class="text-3">And I'm a <span class="typing"></span></div>
                     <a class="btn btn-primary" href="#contact" role="button">Contact Me</a>
+                    
 
                 </div>
             </div>
@@ -66,7 +70,34 @@
             <h2 class="title">About Me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/ABOUTME.JPG" alt="">
+                    <div id="image-container">
+                        <img src="images/ABOUTME.JPG" alt="">
+                        <script src="animate.js"></script>
+                        
+                    </div>
+                    
+                    <style>
+                        #image-container {
+                        position: absolute;
+                        top: 1300px;
+                        left: -500px; /* start image offscreen */
+                        }
+
+                        img {
+                        max-width: 100%;
+                        height: auto;  
+                        transition: opacity 0.3s ease-in-out;
+                        }
+
+                        img:hover {
+                            transform: scale(1.2);
+                        }
+
+                    </style>
+
+
+                    
+
                 </div>
                 <div class="column right">
                     <div class="text">I'm a <span class="typing-2"></span></div>
@@ -345,5 +376,6 @@
         </div>
     </section>
     <script src="script.js"></script>
+    
 </body>
 </html>
