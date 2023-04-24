@@ -13,7 +13,7 @@
     <meta name="description" content ="Charlie Malachinski is a Computer Scientist with experience in programming, web development, web design, and overall computer proficiency. Contact Charlie Malachinski today to start creating your best project yet!">
     <meta name="author" content="Charlie Malachinski">
     <meta name="keywords" content = "Charlie, Malachinski, HTML, CSS, JavaScript, Programming, Computer Science">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo_test2.png">
     <title>Charlie Malachinski - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -78,33 +78,52 @@
                     
                     <style>
                         #image-container {
-                        position: absolute;
-                        top: 1300px;
-                        left: -500px; /* start image offscreen */
+                            position: absolute;
+                            top: 1300px;
+                            left: -500px; /* start image offscreen */
                         }
-
+                    
                         img {
-                        max-width: 100%;
-                        height: auto;  
-                        transition: opacity 0.3s ease-in-out;
+                            max-width: 100%;
+                            height: auto;  
+                            transition: opacity 0.3s ease-in-out;
                         }
-
+                    
                         img:hover {
                             transform: scale(1.2);
                         }
-
+                    
+                        /* desktop styles */
+                        @media screen and (min-width: 769px) {
+                            #image-container {
+                                position: absolute;
+                                top: 1300px;
+                                left: -500px; /* start image offscreen */
+                            }
+                    
+                            img {
+                                max-width: 100%;
+                                height: auto;  
+                                transition: opacity 0.3s ease-in-out;
+                            }
+                    
+                            img:hover {
+                                transform: scale(1.2);
+                            }
+                        }
+                    
                         /* mobile styles */
                         @media screen and (max-width: 768px) {
-                        #image-container {
-                            position: relative;
-                            top: auto;
-                            left: auto;
-                            margin: 0 auto 20px;
-                        }
-
-                        img:hover {
-                            transform: none;
-                        }
+                            #image-container {
+                                position: relative;
+                                top: auto;
+                                left: auto;
+                                margin: 0 auto 20px;
+                            }
+                    
+                            img:hover {
+                                transform: none;
+                            }
                         }
                     </style>
 
