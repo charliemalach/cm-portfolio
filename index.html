@@ -77,52 +77,24 @@
                     </div>
                     
                     <style>
-                        #image-container {
-                            position: absolute;
-                            top: 1300px;
-                            left: -500px; /* start image offscreen */
-                        }
-                    
-                        img {
-                            max-width: 100%;
-                            height: auto;  
-                            transition: opacity 0.3s ease-in-out;
-                        }
-                    
-                        img:hover {
-                            transform: scale(1.2);
-                        }
-                    
                         /* desktop styles */
                         @media screen and (min-width: 769px) {
                             #image-container {
-                                position: absolute;
-                                top: 1300px;
-                                left: -500px; /* start image offscreen */
+                                position: relative;
+                                left: -10;
+                                top: 0;
+                                margin-left: -50px;
+                                padding: 10px;
                             }
-                    
+        
                             img {
                                 max-width: 100%;
                                 height: auto;  
                                 transition: opacity 0.3s ease-in-out;
                             }
-                    
+        
                             img:hover {
                                 transform: scale(1.2);
-                            }
-                        }
-                    
-                        /* mobile styles */
-                        @media screen and (max-width: 768px) {
-                            #image-container {
-                                position: relative;
-                                top: auto;
-                                left: auto;
-                                margin: 0 auto 20px;
-                            }
-                    
-                            img:hover {
-                                transform: none;
                             }
                         }
                     </style>
@@ -133,7 +105,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">I'm a <span class="typing-2"></span></div>
-                    <p>As a <b>Computer Science</b> graduate from Valparaiso University with diverse experience in multiple software development fields, I am confident that my skills make me the perfect candidate to work on your projects.
+                    <p style="  position: relative; justify-content: space-between;">As a <b>Computer Science</b> graduate from Valparaiso University with diverse experience in multiple software development fields, I am confident that my skills make me the perfect candidate to work on your projects.
                         I possess a deep passion for transforming intricate and advanced concepts into visually stunning, simplified, and appealing designs.
                         My fascination with computers dates back to my childhood when I was first introduced to them. As a result, I have developed a high level of proficiency in navigating various operating systems, including Windows, MacOS, and select Linux versions, which gives me great confidence in my abilities.
                         I possess a diverse set of programming skills that extend across various programming languages, such as <b>Java</b>, <b>Python</b>, <b>C</b>, <b>HTML/CSS</b>, <b>JavaScript</b>, <b>PHP</b>, <b>SQL</b>, and several others.
