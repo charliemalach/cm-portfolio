@@ -1,6 +1,6 @@
-/********** Template CSS **********/
 :root {
     --primary: #5fbff9;
+    --primary2: #e881fc;
     --secondary: #16bac5;
     --light: #FAFAFB;
     --dark: #12141D;
@@ -282,7 +282,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(24, 64, 130, 0.9);
+    background: rgba(232, 129, 252, .75);
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
