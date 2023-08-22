@@ -243,7 +243,13 @@
     width: 30px;
 }
 
+#skill .bg {
+  background-color:  #5fbff9;
+}
 
+#skill-bg2 {
+  background-color: var(--secondary);
+}
 /*** Service ***/
 .service-item .bg-icon {
     width: 100px;
@@ -330,6 +336,11 @@
     text-align: center;
     padding: 8px;
     font-weight: bold;
+  }
+
+  .project-description {
+    font-size: 14px;
+    padding: 4px;
   }
 
   
